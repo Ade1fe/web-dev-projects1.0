@@ -1,0 +1,404 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN</title>
+    <!-- ▼ swiper cdn ▼ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+	<!-- ▲ swiper cdn ▲ -->
+    <!-- <link href="css/main.css" /> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  
+    <nav>
+        <div class="logo">
+            <img src="imgs/mtn.jpg" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><button class="login-button" href="#">Login</button></li>
+            <li><button class="join-button" href="#">Join</button></li> -->
+        </ul>
+    </nav>
+        <script src="javascript/script.js"></script>
+
+      
+        <!-- Section 2 -->
+      
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="imgs/vanja-matijevic-BiDIUGEogeM-unsplash.jpg" style="width:100%">
+           <div class="text"><h2>Same Day,Different Feelings. <br>
+            <button>Expreience 5G</button>
+            </h2></div>
+           </div>
+           <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="imgs/jack-sloop-eYwn81sPkJ8-unsplash.jpg" style="width:100%;">
+              <div class="text"><h2>Report Fraud <br>
+                <button>Click Here</button>
+                </h2></div>
+           </div>
+           <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="imgs/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" style="width:100%">
+              <div class="text"><h2>Nominate an hustler <br>
+                <button>Learn more</button>
+                </h2></div>
+           </div>
+           <div class="mySlides fade">
+            <div class="numbertext">4 / 3</div>
+            <img src="imgs/creative-headline-APNnyM36puU-unsplash.jpg" style="width:100%">
+            <div class="text"><h2>Spelling Bee <br> Competition <br>
+                <button>Click here</button>
+                </h2></div>
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">5 / 3</div>
+            <img src="imgs/cedrik-wesche-pP63gfgwSBo-unsplash.jpg" style="width:100%">
+            <div class="text"><h2>Enroll for NIN<br> or UpGrade to 4G <br>
+                <button>Click here</button>
+                </h2></div>
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="imgs/praveen-thirumurugan-3tINDYanpD0-unsplash.jpg" style="width:100%">
+            <div class="text"><h2>Broad Band Offer <br>
+                <button>Learn more</button>
+                </h2></div>
+         </div>
+           <a class="prev" onclick="plusSlides(-1)">❮</a>
+           <a class="next" onclick="plusSlides(1)">❯</a>
+     </div>
+     <!-- <br> -->
+     <div style="text-align:center" class="dot_div">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+     </div>
+     <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+  <!-- slide ends here -->
+
+  <!-- section-3 -->
+  <div  class="container1">
+    <div class="button-Container">
+     <button><i class="fa fa-user icon"  style="color: #ffc300; font-size: 20px;" aria-hidden="true"></i></i>Sign Up</button>
+     <button><i class="fa fa-briefcase icon" style="color: black;  font-size: 20px;" aria-hidden="true"></i>Business</button>
+     <button><i class="fa fa-play-circle icon" style="color: red;  font-size: 20px;" aria-hidden="true"></i>Play</button>
+     <button><i class="fa-solid fa-comment" style=" margin-left: 5%;
+        padding: 0.7rem; color: blue;  font-size: 20px;"  aria-hidden="true"></i>MoMo</button>
+     
+    </div>
+    <div class="button-Container contain">
+     <button>Login to myMtn <span>&#10148;</span> </button>
+     <button>Login to myMtn  <span>&#10148;</span></button>
+    </div>
+    
+   
+   </div>
+   <!-- section 3 endfs -->
+
+
+   <!-- section 4 -->
+   <div class="container_1">
+    <h1>personal</h1>
+        <div class="Personal">
+
+            <section class="cnt">
+                <div class="inner"style="background-color: rgba(0, 0, 0, 0.2);">
+                    <div class="slider"  style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="swiper"  style="background-color: rgba(0, 0, 0, 0.2);">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="imgs/toa-heftiba-fLaB8LlEMNo-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/christiann-koepke-2gExZO8zK58-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/charlesdeluvio-rRWiVQzLm7k-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/jason-goodman-BAanEbxe9No-unsplash.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section> 
+            
+        </div>
+
+   <!-- </div> -->
+
+   <script>
+    var getTranslate;
+        var slideWidth;
+
+        var mySwiper = new Swiper('.slider .swiper', {
+            speed: 8000,
+			// ▼画像サイズに合わせて数値変更する
+            slidesPerView: 3,
+            loop: true,
+            freeMode: true,
+            freeModeMomentum: false,
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            }
+        })
+   </script>
+
+
+<!-- section 5 -->
+<div>
+    <h1>Business</h1>
+        <div class="Personal">
+
+            <section class="cnt">
+                <div class="inner"style="background-color: rgba(0, 0, 0, 0.2);">
+                    <div class="slider"  style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="swiper"  style="background-color: rgba(0, 0, 0, 0.2);">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="imgs/christina-wocintechchat-com-8jwCWlsBys8-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/christina-wocintechchat-com-FBdmhGMdCso-unsplash.jpg.crdownload" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/christina-wocintechchat-com-fjza4oBV8ic-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/christiann-koepke-2gExZO8zK58-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/daria-pimkina-tYaccl19A3Q-unsplash.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section> 
+            
+        </div>
+
+   </div>
+
+   <script>
+    var getTranslate;
+        var slideWidth;
+
+        var mySwiper = new Swiper('.slider .swiper', {
+            speed: 8000,
+			// ▼画像サイズに合わせて数値変更する
+            slidesPerView: 3,
+            loop: true,
+            freeMode: true,
+            freeModeMomentum: false,
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            }
+        })
+   </script>
+
+
+<!-- section 6 -->
+<div>
+    <h1>Play</h1>
+        <div class="Personal">
+
+            <section class="cnt">
+                <div class="inner"style="background-color: rgba(0, 0, 0, 0.2);">
+                    <div class="slider"  style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="swiper"  style="background-color: rgba(0, 0, 0, 0.2);">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="imgs/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/nathan-dumlao-oRKF_ZBJYGM-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/nikita-katsevich-QXDJGPZTwxs-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/jason-goodman-m2TU2gfqSeE-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/cardmapr-nl-hTUZW7E7krg-unsplash.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section> 
+            
+        </div>
+
+   </div>
+
+   <script>
+    var getTranslate;
+        var slideWidth;
+
+        var mySwiper = new Swiper('.slider .swiper', {
+            speed: 8000,
+			// ▼画像サイズに合わせて数値変更する
+            slidesPerView: 3,
+            loop: true,
+            freeMode: true,
+            freeModeMomentum: false,
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            }
+        })
+   </script>
+
+
+<!-- section 7 -->
+<div >
+    <h1>MoMo</h1>
+        <div class="Personal">
+
+            <section class="cnt">
+                <div class="inner"style="background-color: rgba(0, 0, 0, 0.2);">
+                    <div class="slider"  style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="swiper"  style="background-color: rgba(0, 0, 0, 0.2);">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="imgs/uriel-soberanes-MxVkWPiJALs-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/everyday-basics-pi9W2dWDdak-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/david-dvoracek-QiPe0UpC0_U-unsplash.jpg" width="100%">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="imgs/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section> 
+            
+        </div>
+
+   </div>
+
+   <script>
+    var getTranslate;
+        var slideWidth;
+
+        var mySwiper = new Swiper('.slider .swiper', {
+            speed: 8000,
+			// ▼画像サイズに合わせて数値変更する
+            slidesPerView: 3,
+            loop: true,
+            freeMode: true,
+            freeModeMomentum: false,
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            }
+        })
+   </script>
+
+
+<!-- section 9 -->
+    <div class="conta">
+        <div class="conatiner2">
+            <h3>Personal  <i class="fa fa-plus" aria-hidden="true"></i> </h3>
+            <h3>Bussiness</h3>
+            <h3>Investors </h3>
+            <h3>Foundation <i class="fa fa-plus" aria-hidden="true"></i> </h3>
+            <h3>Events </h3>
+            <h3>Supports </h3>
+            <h3>About us<i class="fa fa-plus" aria-hidden="true"></i> </h3>
+            <h3>Personal <i class="fa fa-plus" aria-hidden="true"></i>  </h3>
+            <h3>Careers<i class="fa fa-plus" aria-hidden="true"></i> </h3>
+            <h3>Contact Us </h3>
+        </div>
+
+        <div class="icons-">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div class="paragraph">
+        <p>&copy; MTN Nigeria Communication Plc,All rights reserved.</p>
+        <p>Privacy Policy & Data Protection.</p>
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

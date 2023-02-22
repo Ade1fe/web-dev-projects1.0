@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* max-width: 600px; */
+    /* border: 1px solid blue; */
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+}
+.myheader{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0.5rem;
+}
+.logo h1 .span1{
+    /* font-style: oblique; */
+    font-family: cursive;
+   color: red;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo h1 .span2{
+    
+}
+li{
+    display: inline;
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* section2 */
+.main_container{
+   margin-top: 3rem;
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+.container{
+    /* border: 1px solid green; */
+    width: 40%;
+    padding: 1rem;
+}
+.container2{
+    width: 59%;
+    position: relative;
+   
+    /* border: 1px solid yellow; */
+}
+.container2 img{
+    border-radius: 10px;
+    width: 100%;
+}
+.container h1{
+    font-size: 2.2rem;
+}
+.container h1 span{
+    color: red;
+    font-weight: 900;
+}
+.container p{
+    font-size: 1.5rem;
+}
+.pizza{
+    position: absolute;
+    width: 50%;
+    border: 1px yellow solid;
+    bottom: 2.5rem;
+    right: 9px;
+    border-radius: 9px;
+    background-image: url(../imgs/msg5281774734-1388.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    text-align: right;
+    
+    /* opacity: 0.5; */
+   
+    
+}
+.pizza p{
+    font-size: 1.3rem;
+    font-weight: 900;
+    /* color: blue; */
+     opacity: 0.9;
+    margin-top: 3rem;
+   
+}
+.pizza span{
+    font-size: 2rem;
+    color: white;
+}
+/* section3 */
+.reviews{
+    margin-top: 3rem;
+    display: flex;
+    padding: 1rem;
+     box-shadow: 1px 2px red 1px 2px blue;
+   
+}
+.img_container{
+    display: flex;
+    align-items: center;
+}
+.img_container img{
+    width: 3rem;
+}
+.mytext{
+    font-size: 1.1rem;
+     /* height: 3rem; */
+   
+}
+/* section4 */
+.container4{
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.c1{
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1.3rem;
+}
+.c1:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.container5 h2{
+    font-size: 1.7rem;
+}
+.container5 span{
+    color: red;
+}
+.container5 p{
+    font-size: 1.1rem;
+}
+
+/* section5 */
+.container_desert{
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+.container_desert h2{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    /* border: #5e6977 solid 1px; */
+    padding: 0.5rem;
+}
+.container_desert h2 span{
+    color: red;
+}
+.desert_container{
+    display: flex;
+    gap: 0.5rem;
+}
+.d1{
+    /* border: 1px solid red; */
+}
+
+/* section6 */
+.map{
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+ /* Credit Card */
+.credit-card {
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    /* height: 450px; */
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input ,select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+/* Buttons */
+
+
+/* CSS */
+.button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: red;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+/* Title */
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+* Common */
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+  
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+/* Date Field */
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+/* Card Verification Field */
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+/* Buttons Section */
+.paypal-btn,
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+ 
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+     padding: 0.6rem;
+}
+ 
+.paypal-btn a,
+.proceed-btn a {
+    text-decoration: none;
+}
+ 
+.proceed-btn a {
+    color: #fff;
+}
+ 
+.paypal-btn a {
+    color: rgba(242, 242, 242, .7);
+}
+ 
+.paypal-btn {
+    padding: 0.6rem;
+    /* padding-right: 95px; */
+    background: url('paypal-logo.svg') no-repeat 65% 56% #f0094a;
+}
+
+
+
+/* ----------------Header--------------------------- */
+
+@media (max-width:570px) {
+    .myheader{
+        display: inline;
+        text-align: center;
+    }
+    .main_container{
+        /* border: 1px solid red; */
+        display: grid;
+        justify-content: center;
+        float: none;
+    }
+    .container{
+        /* border: 1px solid green; */
+        width: 100%;
+        order: 2;
+    }
+    .container2{
+        width: 100%;
+        order: 1;
+        /* border: 1px solid yellow; */
+    }
+    .container2 img{
+        width: 100%;
+    }
+    .pizza span{
+        font-size: 2rem;
+        color: black;
+    }
+    .container4{
+        display: grid;
+        justify-content: center;
+        padding: 0.5rem;
+        /* justify-content: flex-start; */
+    }
+    .contain_Img{
+        order: 1;
+        /* border: #5e6977 1px solid; */
+    }
+    .container5{
+        order: 2;
+        /* width: 50%; */
+    }
+    .desert_container{
+        justify-content: center;
+        display: grid;
+        /* gap: 0.5rem; */
+    }
+    .d1{
+        /* width: 50%; */
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,456 @@
+*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+header{
+    padding: 0rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #061958;
+    color: #fff;
+}
+
+header ul{
+   list-style: none;
+}
+header ul li{
+    display: inline;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+#active{
+    border-bottom: 3px solid lightblue;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section2 */
+main{
+    display: flex;
+}
+.image-div{
+    background-image: url(./shridhar-thorat-6AKLKt-KmdY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding: 0rem 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+.image-div p{
+    text-align: left;
+}
+.imgTwo{
+    background-image: url(./s-o-c-i-a-l-c-u-t-1RT4txDDAbM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+/* section3 */
+#section3{
+    text-align: center;
+}
+hr{
+    width: 10%;
+    border:lightblue 2px solid;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+   width: 80%;
+   margin: auto;
+   margin-bottom: 2rem;
+   
+}
+.box1{
+    background-image: url(./eduardo-soares--b1DtjAA2xw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.box2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 70vh;
+    width: 50%;
+   background-color: #f2f2f2;
+   position: relative;
+   /* padding: 1rem; */
+    /* padding: 4.5rem 3.5rem; */
+}
+.text-con{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    
+}
+
+/* section4 */
+#section4{
+    text-align: center;
+}
+.containerTwo{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    /* gap: 1em; */
+}
+.firImgOne{
+    background-image: url(./undraw_empty_cart_co35.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 3rem;
+    /* width: 30%; */
+}
+.inner{
+    width: 50%;
+}
+.firImgTwo{
+    background-image: url(./undraw_House_searching_re_stk8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0.5rem;
+    width: 30%;
+}
+.firImgThree{
+    background-image: url(./undraw_monitor_iqpq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0.5rem;
+    width: 30%;
+}
+.fir{
+    display: flex;
+}
+.fir img{
+    width: 150px;
+    height: 50%;
+}
+
+/* section5 */
+.section5{
+    margin-top: 1.5rem;
+}
+.layImg{
+    background-image: url(./kenny-eliason-SvhXD3kPSTY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 300px;
+   width: 100%;
+   position: relative;
+   color: #fff;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(53, 117, 169, 0.7);
+    width: 100%;
+    height: 300px;
+}
+.overlay h3{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.overlay button{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+/* section6 */
+.section6{
+    text-align: center;
+}
+.section6 h3{
+    margin: 0;
+    padding: 10px;
+   
+}
+.ul-flex{
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    height: 70vh;
+}
+.ul-flex ul{
+    list-style: none;
+    padding: 0;
+    
+}
+li i{
+    color: lightblue;
+    padding: 0.5rem;
+}
+.mycontainer{
+    display: flex;
+    gap: 0.5rem;
+    justify-items:  center;
+    justify-content: space-evenly;
+    
+}
+ .ul-flex .vl {
+    padding: 0px;
+    border: 0px solid #000;
+    border-left: 1px solid #000;
+    height: 100px;
+    margin: 5px;
+    width: 0px;
+  }
+  .phone{
+    background-image: url(./undraw_android_jr64.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 70vh;
+   width: 30%;
+  }
+
+/* section7 */
+.section7{
+    background-color: #e8f4f8;
+    height: 50vh;
+   
+}
+.text{
+    width: 60%;
+    padding: 1rem 2.5rem;
+}
+.text h3{
+    margin-bottom: 1.5rem;
+}
+
+/* section8 */
+.section8{
+    margin-top: 1rem;
+    background-color: #f2f2f2;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.coni{
+    width: 80%;
+    margin: auto;
+    padding: 1rem 0rem 2rem 0rem;
+}
+.flex-header ul{
+    list-style: none;
+    margin: 0 20px;
+}
+.flex-header ul li{
+    display: inline;
+}
+.section8 hr{
+    border: #000 1px solid;
+    width: 90%;
+}
+.flexcon{
+    display: flex;
+    justify-content: center;
+}
+.flexcon ul{
+    list-style: none;
+}
+.flexcon li{
+    padding: 5px;
+}
+
+/* Buttons */
+
+/* CSS */
+.button-37 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+.button {
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 5px;
+  }
+  
+  .button:hover {
+    background-color: lightblue; 
+    color: white;
+  }
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+@media(max-width:900px){
+    .fir{
+        display: grid;
+         text-align: justify;
+         padding: 0.9rem;
+         text-align: center;
+    }
+    .firImgOne{
+       padding: 0;
+       width: 100%;
+       height: 250px;
+    }
+    .firImgTwo{
+       padding: 0;
+       width: 100%;
+       height: 250px;
+    }
+    .firImgThree{
+        width: 100%;
+       padding: 0;
+       height: 250px;
+    }
+    .containerTwo{
+        display: grid;
+        grid-auto-flow: row;
+        grid-auto-columns: 1fr;
+        /* gap: 1em; */
+    }
+    .inner{
+        width: 100%;
+    }
+    .inner h3{
+        text-align: center;
+    }
+}
+
+@media(max-width:500px){
+    header{
+        display: grid;
+        justify-content: center;
+        padding: 0.3rem 0rem;
+    }
+    main{
+        display: grid;
+    }
+    header ul{
+        margin: 0;
+        padding: 0;
+    }
+    header ul li{
+        display: block;
+    }
+    .right-nav{
+        display: block;
+        margin: 0;
+    }
+    .image-div{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        order: 2;
+        height: 60vh;
+    }
+    .image-div h2 , .image-div p{
+        padding:0rem 1rem;
+    }
+    .imgTwo{
+        padding: 0;
+        width: 100%;
+        order: 1;
+    }
+    .container{
+        display: grid;
+    }
+    .box1 ,.box2{
+        width: 100%;
+        padding: 0.6rem;
+        border-radius: 0px;
+    }
+    .box2{
+        height: 30vh;
+    }
+    .mycontainer{
+        display: grid;
+        padding: 0;
+        gap: 0;
+        margin-bottom: 1rem;
+    }
+    .ul-flex{
+        width: 100%;
+        height: 30vh;
+    }
+    .phone{
+        height: 30vh;
+        width: 100%;
+       
+    }
+    
+    .flex-header{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .flexcon{
+        display: grid;
+    }
+    
+}

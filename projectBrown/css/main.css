@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins|Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* ======== Base ========  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    transition: .3 linear;
+}
+body{
+    /* max-width: 700px; */
+    /* border: #000 1px solid; */
+    background-color:#e6b8a2 ;
+}
+/* testrun  */
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+ .menu li{ 
+    display: inline;
+ }
+
+
+
+/* test run */
+.header {
+    overflow: hidden;
+    background-color: #e6b8a2;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  rgba(212, 162, 117, 0.2);
+  }
+  
+  /* Style the header links */
+  .header a {
+    /* float: left; */
+    color: black;
+  
+  }
+   /* Float the link section to the right */
+   .header-right a {
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    /* float: right; */
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ffedd4;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    /* background-color: dodgerblue; */
+    color: #000;
+  }
+  
+ 
+  
+/* button */
+button[class=btn-contact] {
+    transform: translateY(0%);
+    padding: 9px 25px;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: #cba48b;
+}
+
+button[class=btn-contact]:hover {
+    background-color:#ffedd4;
+}
+
+/* secpnd button */
+button[class=flex-btn] {
+    transform: translateY(0%);
+    padding: 9px 25px;
+    color: #000;
+    background-color:#fff ;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button[class=flex-btn]:hover {
+    background-color:#ffedd4;
+    color: #000;
+}
+
+/* personal btn */
+
+
+button[class=flexbtn] {
+    transform: translateY(0%);
+    padding: 9px 25px;
+    color: #000;
+    background-color:#fff ;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button[class=flexbtn]:hover {
+    background-color:#ffedd4;
+    color: #000;
+}
+
+/* section2 */
+img{
+    width: 100%;
+}
+main{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div{
+    width:60%
+}
+.text-div{
+    width:60%;
+    padding: 1rem;
+}
+.text-div h2{
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+.text-div p{
+    margin-bottom: 4rem;
+}
+.btn-section{
+margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(237, 196, 179, 1);
+    width: 100%;
+    justify-content: space-around;
+}
+.flex-btn{
+    background-color: #fff;
+}
+
+/* section 4 */
+#aboutus{
+    
+}
+.about-us{
+    padding: 2.5rem;
+}
+.about-us h2{
+    margin-bottom: 1rem;
+}
+.about-us p{
+    margin-bottom: 1rem;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+ width: 150px;
+ height: 150px;
+ border: #000 1px solid;
+ position: relative;
+ 
+}
+.box11{
+    width: 150px;
+    height: 150px;
+    border: #000 1px solid;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.box11 p{
+    text-align: center;
+    margin-top: 3rem;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    border: #000 1px solid;
+    position: relative;
+}
+.box22{
+    width: 150px;
+    height: 150px;
+    border: #000 1px solid;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.box22 p{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+/* section6 */
+.portflio{
+    height: 120vh;
+    background-color: rgba(237, 196, 179, 1);
+}
+.main-div{
+    padding: 2.5rem;
+}
+.main-div h2{
+    margin-bottom: 1rem;
+}
+.main-div p{
+    margin-bottom: 1rem;
+}
+.img-div1{
+    position: absolute;
+    top: 30px;
+    left: -10;
+    width: 170px;
+    height: 200px;
+    background-image: url(/imgs/hello-revival-2_NRQBcggnU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+        
+    }
+    .img-div2{
+        position: absolute;
+        top: 30px;
+        left: -10;
+        width: 170px;
+        height: 200px;
+        background-image: url(/imgs/leandro-lucas-tO8qIftO1JE-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+        
+    }
+
+/* section7 */
+#customer{
+    padding: 2.5rem;
+
+}
+#customer h2{
+    margin-bottom: 1rem;
+}
+.cust-omers{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    /* border: #000 1px solid; */
+    padding: 0.6rem;
+    background-color: #fff;
+}
+.item h3::before, .item h3::after{
+    content: "\0022";
+}
+.innerdivv{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.imgdivv{
+    background-image: url(/imgs/sixteen-miles-out-FzZukrpS9iA-unsplash.jpg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.stars{
+    display: flex;
+    
+}
+i{
+    color: orange;
+}
+.imgdivv1{
+    background-image: url(/imgs/svitlana-kwE6ohZccSs-unsplash.jpg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+/* section8 */
+#blog{
+    padding: 2.5rem;
+    background-color: rgba(237, 196, 179, 1);
+}
+#blog h2{
+    margin-bottom: 1rem;
+
+}
+#blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    
+}
+.one{
+    /* border: 1px solid red; */
+    display: grid;
+    width: 30%;
+   grid-template-columns: auto;
+   grid-template-rows: auto auto auto;
+}
+.onep{
+    /* border: 1px solid red; */
+    /* width: 250px;
+    height: 170px; */
+    padding: 0.5rem;
+    text-align: center;
+
+}
+.img-{
+    background-image: url(/imgs/svitlana-kwE6ohZccSs-unsplash.jpg);
+    /* width: 170px;
+    height: 150px; */
+    padding: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1-{
+    background-image: url(/imgs/sixteen-miles-out-FzZukrpS9iA-unsplash\ \(1\).jpg);
+    /* width: 170px;
+    height: 150px; */
+    padding: 5.6rem 5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2-{
+    background-image: url(/imgs/kadarius-seegars-umwECVRbmJM-unsplash.jpg);
+    /* width: 170px;
+    height: 150px; */
+    padding: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section9 */
+#contact{
+    padding: 2.5rem;
+
+}
+.contact-{
+    /* border: #000 1px solid; */
+    width: 60%;
+}
+.contact- i{
+    color: #000; 
+    padding: 0.3rem;
+}
+.contact- li{
+    padding: 0.2rem;
+}
+.contact- h2{
+    /* border: #000 1px solid; */
+    width: 70%;
+    margin-bottom: 1rem;
+    
+}
+.contact- p{
+    margin-bottom: 1rem;
+    /* border: #000 1px solid; */
+    justify-content: left;
+    /* width: 50%; */
+    text-align: right;
+    
+}
+
+/* section10 */
+#footer{
+    background-color: #fcf3ea;
+    padding: 2.5rem;
+}
+.first i{
+    margin: 0.5rem;
+   color: #000;
+}
+.first p{
+    margin: 0.5rem;
+   color: #000;
+}
+.main-cont{
+    display: flex;
+    gap: 10px;
+}
+.first{
+    flex: 2;
+}
+.first2{
+    flex: 1;
+}
+.first3{
+    flex: 1;
+}
+.first4{
+    flex: 1;
+}
+
+/* section11 */
+.foot{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    padding: 0.5rem;
+    /* border: #000 1px solid; */
+    display: flex;
+    gap: 10px;
+    /* height: 3rem; */
+    padding: 0px;
+    justify-items: center;
+    /* justify-content: space-evenly; */
+}
+input[type=email]{
+    width:90%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    /* border: #000 1px solid; */
+}
+.foot button{
+    margin: 0px;
+    width: 100%;
+    /* border: #000 1px solid; */
+}
+
+
+@media (min-width:500px) {
+ .header  i {
+        display: none;
+        /* color: none; */
+    }
+    .menu li a button{
+        color: #000;
+        margin: auto;
+        display: none;
+       
+      }
+}
+
+
+
+
+
+@media (max-width:650px){
+
+    .header i {
+        /* position: fixed; */
+        display: block;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      
+      .closeIcon {
+        display: none;
+      }
+      .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #cba48b;
+        height: 40vh;
+        color: white;
+        list-style: none;
+        padding-top: 2rem;
+      }
+      .showMenu {
+        transform: translateY(0);
+      }
+      .menu li a{
+        color: #000;
+        display: grid;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        margin-top: -10px;
+      }
+      .menu li a button{
+        display: block;
+        color: #000;
+        margin: auto;
+       
+      }
+      a .btn-contact{
+        display: none;
+        color: aqua;
+      }
+   
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 600px) {
+   
+  .btn-section{
+    margin-top: 1rem;
+        display: grid;
+        justify-content: center;
+        padding: 1rem;
+        background-color: rgba(237, 196, 179, 1);
+        width: 100%;
+        gap: 5px 10px;
+        
+    }
+    .flexbtn{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .main-cont{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    #blogs{
+        display: grid;
+        justify-content: center;
+    }
+    .one{
+       width: 100%;
+    }
+    .first li, .first2 li, .first3 li , .first4 li{
+        padding: 0.3rem;
+    }
+  
+}
+
+@media (max-width:500px){
+    .text-div{
+        width:60%;
+        padding: 1rem;
+    }
+    .text-div h2{
+        margin-bottom: 2rem;
+        font-weight: 900;
+    }
+    .text-div p{
+        margin-bottom: 2rem;
+    }
+    .cust-omers{
+        display: grid;
+        justify-content: center;
+    }
+    .innerdivv{
+        display: flex;
+        gap: 15px;
+    }
+  
+    #contact , .main-cont{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    #contact h2{
+        width: 100%;
+    }
+    .foot{
+        display: grid;
+    }
+    .foot input{
+        width: 100%;
+        gap: 5px;
+        margin: 5px;
+        padding:0.5rem;
+        border-radius: none;
+    }
+    .foot button{
+        width: 100%;
+    }
+   
+
+  
+}
+
+@media (max-width:489px){
+    .box-container{
+        display: grid;
+        justify-content: center;
+       gap: 75px 0px;
+    }
+    .portflio{
+        height: 130vh;
+        background-color: rgba(237, 196, 179, 1);
+    }
+
+   .portflio .main-div .box2{
+        /* border: 5px solid red; */
+       top: 90px;
+     }
+     
+  
+}
+
+
+@media (max-width:400px){
+    .text-div{
+        width:60%;
+        padding: 1rem;
+    }
+    .text-div h2{
+        margin-bottom: 0.5rem;
+        font-weight: 900;
+    }
+    .text-div p{
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media (max-width:370px){
+    main{
+        display: grid;
+    }
+    .text-div{
+        width:100%;
+        padding: 1rem;
+    }
+    .text-div h2{
+        margin-bottom: 0.2rem;
+        font-weight: 900;
+    }
+    .img-div{
+        width: 100%;
+    }
+    .text-div p{
+        margin-bottom: 0.2rem;
+    }
+    input[type=email]{
+       font-size: 1rem;
+    }
+    .portflio{
+        height: 120vh;
+        background-color: rgba(237, 196, 179, 1);
+    }
+ 
+}

@@ -1,0 +1,306 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="header">
+        <a href="#default" class="logo"><h3><em>O-damisi</em></h3></a>
+        <div class="header-right">
+            <ul class="menu">
+                <li><a class="menuItem" href="#">Home</a></li>
+                <li><a class="menuItem" href="#">Profile</a></li>
+                <li><a class="menuItem" href="#">About</a></li>
+                <li><a class="menuItem" href="#">Contacts</a></li>
+                <li> <a href="#">
+                    <button class="btn-contact">Sign in</button>
+                  </a></li>
+            </ul>
+        </div>
+        <a href="#">
+            <button class="btn-contact">Sign in</button>
+          </a>
+            <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+      </div>    
+   
+      <script>
+        const menu = document.querySelector(".menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+
+hamburger.addEventListener("click", toggleMenu);
+
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
+  }
+)
+      </script>
+
+<!-- section 2 -->
+
+
+    <main>
+
+        <div class="img-div">
+            <img src="imgs/katsia-jazwinska-ejshExfNUbA-unsplash.jpg" alt="">
+        </div>
+
+        <div class="text-div">
+            <h2>We Bring Your Visions to Life</h2>
+            <p>With the help of professional designers,
+                let's help make your design dreams come through.
+            </p>
+            <button class="btn-contact">Consult a Designer</button>
+
+        </div>
+    </main>
+
+    <!-- section3 -->
+    <div class="btn-section">
+        <button  class="flex-btn" >Minimalist</button>
+        <button class="flex-btn">Transitional</button>
+        <button  class="flex-btn">Modern</button>
+        <button  class="flex-btn">Eclectic</button>
+        <button class="flexbtn">Contemporay</button>
+    </div>
+
+<!-- section4 -->
+<section id="aboutus">
+    <div class="about-us">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas id necessitatibus odio similique labore consectetur, obcaecati nobis! Tenetur reiciendis maiores perferendis nobis odit, laboriosam ipsam.</p>
+        
+        <div class="box-container">
+            <div class="box1">
+                <div class="box11">
+                    <p>5 <br>
+                    Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="box22">
+                    <p>200+<br>
+                        Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</section>
+
+<!-- section6 -->
+<section class="portflio">
+    <div class="main-div">
+        <h2>Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, odio! Nisi sit officiis quisquam non voluptas inventore ea nemo commodi asperiores, consequuntur eum ut rerum. Placeat incidunt illum vitae ut modi, eum similique magnam sint.</p>
+        <div class="box-container">
+            <div class="box1">
+                <div class="box11">
+                    <div class="img-div1">
+                        <!-- <img src="imgs/hello-revival-2_NRQBcggnU-unsplash.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="box22">
+                    <div class="img-div2">
+                        <!-- <img src="imgs/leandro-lucas-tO8qIftO1JE-unsplash.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- section7 -->
+    <section id="customer">
+        <h2>Our Customers</h2>
+        <div class="cust-omers">
+            <div class="item">
+                <h3>Satisfactory service</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellendus ipsam animi quibusdam commodi dolor aliquid quas delectus voluptate laboriosam quos quam numquam reprehenderit deserunt sequi saepe sunt perspiciatis, atque cupiditate sint hic eaque quae.</p>
+
+                <div class="innerdivv">
+                    <div class="imgdivv"></div>
+                <div>
+                    <h5>Janelle Isabella</56>
+                <p>Qeace, ipsum dolor.</p>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-regular fa-star"></i>
+                    <i class="fas fa-regular fa-star"></i>
+                    <i class="fas fa-regular fa-star"></i>
+                    <i class="fas fa-regular fa-star"></i>
+                    <i class="fas fa-regular fa-star"></i>
+                </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <h3>Top-notch,highly recommended</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellendus ipsam animi quibusdam commodi dolor aliquid quas delectus voluptate laboriosam quos quam numquam reprehenderit deserunt sequi saepe sunt perspiciatis, atque cupiditate sint hic eaque quae.</p>
+
+                <div class="innerdivv">
+                    <div class="imgdivv1"></div>
+                    <div>
+                        <h5>Mirabelle Encanto</56>
+                    <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-regular fa-star"></i>
+                        <i class="fas fa-regular fa-star"></i>
+                        <i class="fas fa-regular fa-star"></i>
+                        <i class="fas fa-regular fa-star"></i>
+                        <i class="fas fa-regular fa-star"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    <!-- </div> -->
+    </section>
+
+    <!-- section8 -->
+    <section id="blog" >
+        <h2>Our Blog</h2>
+        <div id="blogs">
+            <div class="one">
+                <div class="img-">
+    
+                </div>
+                <div class="onep">
+                    <h3 style="font-weight: 900;">Decorating with flowers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime mollitia, eum eligendi fuga ratione dicta alias, ea placeat tenetur optio. Molestias, expedita. Harum, nihil.</p>
+                    <p style="font-weight: 900;">Read More</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="one">
+                <div class="img1-">
+    
+                </div>
+                <div class="onep">
+                    <h3 style="font-weight: 900;">Lights</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime mollitia, eum eligendi fuga ratione dicta alias, ea placeat tenetur optio. Molestias, expedita. Harum, nihil.</p>
+                    <p style="font-weight: 900;">Read More</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="one">
+                <div class="img2-">
+    
+                </div>
+                <div class="onep">
+                    <h3 style="font-weight: 900;">Painting this week</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime mollitia, eum eligendi fuga ratione dicta alias, ea placeat tenetur optio. Molestias, expedita. Harum, nihil.</p>
+                    <p style="font-weight: 900;">Read More</p>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+
+    </section>
+
+    <!-- section9 -->
+    <section id="contact">
+        <div class="contact-">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i> 04 Bode Edun Lagos, Nigeria</li>
+                <li><i class="fa fa-clock-o" aria-hidden="true"></i> Open 8am - 9pm</li>
+                <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i> addypearl09@gmail.com</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>+2349 0382 57434</li>
+            </ul>
+        </div>
+
+    </section>
+
+        
+    <!-- section10 -->
+    <section id="footer">
+        <div class="main-cont">
+            <div class="first">
+                <a href="#default" style="color: black;" class="logo"><h1><em>O-damisi</em></h1></a>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, vitae.</p>
+            </div>
+
+            <div class="first2">
+                <h2>Company</h2>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+
+            <div class="first3">
+                <h2>Our services</h2>
+                <ul>
+                    <li>Minimalist</li>
+                    <li>Transactional</li>
+                    <li>Modern</li>
+                    <li>Contemporay</li>
+                    <li>Eclectic</li>
+                </ul>
+            </div>
+
+            <div class="first4">
+                <h2>Contact</h2>
+                <ul>
+                    <li>addypearl09@gmail.com</li>
+                    <li>+2349 0382 57434</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="foot">
+            <input type="email" required placeholder="Enter email address">
+            <button class="btn-contact">Subscribe</button>
+        </div>
+
+    </section>
+
+   
+
+
+
+
+
+
+
+</body>
+</html>
